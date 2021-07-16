@@ -1,0 +1,51 @@
+/* ===========================================================================
+  #RESET
+============================================================================*/
+
+:root {
+  --hue: 220;
+
+  --background-form: hsl(var(--hue), 95%, 65%);
+  --background-button: hsl(var(--hue), 40%, 20%);
+  --background-button-hover: hsl(var(--hue), 50%, 35%);
+  --title-color: hsl(var(--hue), 20%, 93%);
+
+  --color-links: hsl(241, 77%, 48%);
+  --main-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 4%, 14%);
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --google-icon-color: hsl(5, 76%, 55%);
+  --linkedin-icon-color: hsl(210, 90%, 40%);
+  --facebook-icon-color: hsl(203, 95%, 53%);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  color: var(--main-color);
+  transition: 0.2s ease-in-out;
+}
+
+
+a:hover,
+a:focus {
+  color: var(--color-links);
+  text-decoration: none;
+}
+
