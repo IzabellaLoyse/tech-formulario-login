@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,91 +12,117 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 
   <title> Tech | Formulário Login</title>
 </head>
+
 <body>
 
-  <header>
-    <h1>Tech <span>&#x1F5A5</span></h1>
+  <header class="l-page-header">
+    <h1 class="c-page-logo">Tech <span>&#x1F5A5</span></h1>
   </header>
 
 
 
 
 
-  <main>
+  <main class="l-page-main">
 
-    <form action="#">
-      <h2>Login</h2>
+    <form action="#" class="l-form-login">
+      <h2 class="c-form-title">Login</h2>
 
       <section class="l-container">
-        <div class="inputs-group">
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" 
-        placeholder="example@example.com">
-      </div>
+        
+        <div class="l-inputs-group">
+          <label class="c-form-label" 
+          for="email">E-mail</label>
 
-        <div class="password-group">
-          <label for="password">Senha</label>
-          <input type="password" name="password" id="password"
-           placeholder="********">
-          <i class="fas fa-eye"></i>
-          <i class="fas fa-eye-slash"></i>
+          <input class="c-form-input" 
+          type="email" 
+          name="email" 
+          id="email" 
+          placeholder="example@example.com">
+        </div>
+
+        <div class="l-password-group">
+          <label class="c-form-label" 
+          for="password">Senha</label>
+
+          <input class="c-form-input" 
+          type="password" 
+          name="password" 
+          id="password" 
+          placeholder="********">
+
+          <i class="fas fa-eye js-eye"></i>
+          <i class="fas fa-eye-slash js-eye-slash"></i>
         </div>
       </section>
+
+
 
 
       <section class="l-infos">
-        <div class="password-infos">
-          <input type="checkbox" name="remember-password" 
-          id="remember-password">
-          <label for="remember-password">Lembrar senha ?</label>
-        </div>
 
-        <a href="#">Esqueceu sua senha ?</a>
+        <div class="l-password-infos">
+          <input type="checkbox" 
+          name="remember-password" 
+          id="remember-password">
+
+          <label for="remember-password">Lembrar senha ?</label>
+
+          <a class="c-remember-link" href="#">Esqueceu sua senha ?</a>
+        </div>
       </section>
 
+
+
       <button class="c-button-login">Login</button>
-    
-
-    <section class="l-links-container">
-      <p>Ou entre com:</p>
-
-      <aside>
-        <a href="#">
-          <i class="fab fa-google-plus"></i>
-        </a>
-
-        <a href="#">
-          <i class="fab fa-linkedin"></i>
-        </a>
-
-        <a href="#">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </aside>
-    </section>
 
 
-    <footer>
-      <p>Ainda não tem uma conta ?
-        <a href="#">Cadastra-se</a>
-      </p>
-    </footer>
-  </form>
+
+      <section class="l-links-container">
+        <p class="c-links-login">Ou entre com:</p>
+
+        <aside class="l-aisde-group">
+          <a href="#">
+            <i class="fab fa-google-plus is-google"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-linkedin is-linkedin"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-facebook-square is-facebook"></i>
+          </a>
+        </aside>
+      </section>
+
+
+
+
+
+      <footer class="l-form-footer">
+        <p class="c-form-account">Ainda não tem uma conta ?
+          <a href="#">Cadastra-se</a>
+        </p>
+      </footer>
+    </form>
   </main>
 
 
 
 
 
-  <footer>
-    <p>Tech &copy; 2021</p>
+  <footer class="l-page-footer">
+    <p class="c-footer-description">Tech &copy; 2021</p>
   </footer>
-  
+
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
