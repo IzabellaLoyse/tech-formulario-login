@@ -110,8 +110,8 @@
 }
 
 
-.js-eye {
-  display: none;
+.is-eye--desabled {
+  visibility: hidden;
 }
 
 

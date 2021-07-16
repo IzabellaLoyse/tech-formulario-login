@@ -30,7 +30,7 @@
 
   <main class="l-page-main">
 
-    <form action="#" class="l-form-login">
+    <form  class="l-form-login">
       <h2 class="c-form-title">Login</h2>
 
       <section class="l-container">
@@ -50,14 +50,14 @@
           <label class="c-form-label" 
           for="password">Senha</label>
 
-          <input class="c-form-input" 
+          <input class="c-form-input js-password-input" 
           type="password" 
           name="password" 
-          id="password" 
+          id="password"
           placeholder="********">
 
-          <i class="fas fa-eye js-eye"></i>
-          <i class="fas fa-eye-slash js-eye-slash"></i>
+          <i class="fas fa-eye js-eye is-eye--desabled" onclick="showPassword()"></i>
+          <i class="fas fa-eye-slash js-eye-slash" onclick="showPassword()"></i>
         </div>
       </section>
 
