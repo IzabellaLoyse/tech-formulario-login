@@ -1,6 +1,8 @@
 # Tech | Formulário Login 🖥️
 
 - Formulário simples de Login do site Tech
+- Exibe a senha ao clicar no ícone
+- Ao clicar no botão de login um Alert é exibido
 
 
 # Tecnologias ⚙️
